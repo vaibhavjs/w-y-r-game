@@ -1,0 +1,32 @@
+.wyrContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.leaderboard {
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px outset;
+}
+.leaderboardItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px outset;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.leaderboardAvatar {
+  padding: 10px;
+}
+.leaderboardInfo {
+  min-width: 250px;
+  padding: 0px 10px;
+}
+.leaderboardName {
+  font-weight: 700;
+}

@@ -1,0 +1,33 @@
+.wyrContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.addQuestion {
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: outset 3px skyblue;
+}
+input {
+  display: block;
+  padding: 5px;
+  margin: 10px 0px;
+  width: 100%;
+}
+.addQuestionFormOr {
+  text-align: center;
+  margin: 10px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

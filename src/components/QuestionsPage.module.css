@@ -1,0 +1,40 @@
+.wyrContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.questionsPage {
+  max-width: 500px;
+  width: 100%;
+  border: 3px outset;
+  overflow: scroll;
+  max-height: 98%;
+}
+.menuBar {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.menuItem {
+  background-color: rgb(176, 198, 226);
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  font-style: oblique;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  padding: 5px;
+}
+.questionItem {
+  padding: 10px;
+}
